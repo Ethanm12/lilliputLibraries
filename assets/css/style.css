@@ -1,0 +1,184 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #494850;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container-small {
+	width: 50%;
+	margin: 0 auto;
+}
+
+header {
+	padding: 20px 0 20px 0;
+	background-color: #7CB490;
+	text-align: center;
+	box-shadow: 0 0 9px 0 rgba(0,0,0,.5);
+	color: whitesmoke;
+}
+
+header img {
+	width: 450px;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+header a {
+	color: whitesmoke;
+}
+
+footer {
+	text-align: center;
+}
+
+#map {
+	width: 100%;
+	height: 500px;
+}
+
+.libraries {
+	text-align: center;
+	padding-bottom: 30px;
+	background-color: #f5f5f5;
+}
+
+.libraries table {
+	margin: 0 auto;
+}
+
+.libraries h3 {
+	margin: 0;
+	padding: 15px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	border-collapse: collapse;
+	padding: 10px;
+	border: 1px solid #988e8e;
+	background-color: #dedede;
+}
+
+td {
+	border-collapse: collapse;
+	padding: 10px;
+	border: 1px solid #988e8e;
+}
+
+pre {
+	margin-top: 0;
+}
+
+.leaflet-popup-content {
+	width: auto!important;
+}
+
+.feature-title {
+	text-align: center;
+}
+
+p {
+	margin: 5px !important;
+	padding: 0 !important;
+}
+
+footer {
+	width: 100%;
+	padding: 15px 0 15px 0;
+	color: whitesmoke;
+}
+
+footer a {
+	color: whitesmoke;
+}
+
+.edit-libraries {
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	min-height: 100px;
+	padding: 30px;
+}
+
+.group {
+	padding: 0 5px 5px 0;
+}
+
+.group label {
+	padding-right: 10px;
+	display: inline-block;
+	min-width: 150px;
+}
+
+.group input, .group select {
+	width: 200px;
+	padding: 5px;
+}
+
+.group select {
+	width: 214px;
+}
+
+form {
+	display: inline-block;
+}
+
+form h5 {
+	margin: 0;
+}
+
+#errors {
+	display: none;
+	background-color: #FF8F5E;
+	padding: 10px 10px 10px 5px;
+}
+
+#success {
+	display: none;
+	background-color: #8EF3C5;
+	padding: 10px 10px 10px 5px;
+}
+
+.nav-btn {
+	padding: 5px;
+	border: 1px solid whitesmoke;
+	text-decoration: none;
+}
+
+.nav-btn:hover {
+	transition: .3s;
+	background-color: #ababab;
+}
+
+.active {
+	background-color: #ababab;
+}
+
+.admin {
+	background-color: #f5f5f5;
+	margin: 0 auto;
+	min-height: 100px;
+	padding: 30px;
+}
+
+.boxes {
+	display: flex;
+	align-items: space-between;
+
+}
+.box {
+	padding: 50px;
+	border: 1px dashed black;
+	flex: 1;
+    align-items: center;
+    text-align: center;
+}
